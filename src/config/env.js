@@ -18,9 +18,9 @@
 let baseUrl = '';
 
 if (process.env.NODE_ENV == 'development') {
-	baseUrl = 'http://127.0.0.1:7300/mock/5c9350d351dd29304022b06c/power';
+	baseUrl = 'https://www.easy-mock.com/mock/5c7f29a049c6867c0752c380/power';
 }else{
-	baseUrl = 'http://127.0.0.1:7300/mock/5c9350d351dd29304022b06c/power';
+	baseUrl = 'https://www.easy-mock.com/mock/5c7f29a049c6867c0752c380/power';
 
 }
 
